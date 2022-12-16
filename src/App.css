@@ -1,58 +1,26 @@
+html{
+  background-image: url(https://thumbs.dreamstime.com/z/background-watching-movies-several-object-background-watching-movies-several-objects-wooden-background-125816589.jpg);
+  padding-bottom: 10%;
+}
+
 .App {
   margin-top: auto;
-  padding: 0;
   text-align: center;
-  width: 100%;
-  height: 110vh;
-  background-image: url(https://thumbs.dreamstime.com/z/background-watching-movies-several-object-background-watching-movies-several-objects-wooden-background-125816589.jpg
-  );
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
-.input{
- font-family: 'Times New Roman', Times, serif;
- font-size: 4rem;
- color: rgb(132, 60, 60);
- text-shadow: 4px 3px white;
+.input {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 4rem;
+  color: rgb(132, 60, 60);
+  text-shadow: 4px 3px white;
 }
-
-.submit{
-border: rgb(236, 226, 226) inset;
-color: aliceblue;
-cursor: pointer;
-background-color: brown;
+.submit {
+  border: rgb(236, 226, 226) inset;
+  color: aliceblue;
+  cursor: pointer;
+  background-color: brown;
 }
-
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
-
-/* .App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */

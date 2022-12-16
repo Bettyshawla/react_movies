@@ -25,12 +25,14 @@ function App() {
     
   }
 
+
+
   useEffect(() => {
     getMovie("Clueless")
   }, [])
 
   return (
-    <div className="App">
+    <div className="App" >
       <Form getMovie={getMovie} />
       <MovieDisplay movie={movie} />
     </div>

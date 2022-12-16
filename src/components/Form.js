@@ -15,13 +15,13 @@ export default function  Form (props){
 
   const handleSubmit = (event) =>{
     event.preventDefault()
-
     props.getMovie(formData.searchterm)
   }
+
   return (
-    <div>
+    <div  >
       <br/>
-        <h1 className='input'>Input</h1>
+        <h1 className='input' >Input</h1>
       <form onSubmit={handleSubmit}>
         <input 
           type="text" 
