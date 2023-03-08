@@ -2,6 +2,24 @@
 
 # Getting Started with Create React App
 
+# Description
+
+I created a movie search application using React.js and API. I wanted to create a tool that would allow users to easily search for their favorite movies and discover new ones.
+
+To get started, I used create-react-app to set up my project and installed the necessary dependencies, including Axios to make API calls.
+
+Next, I created a search bar component where users could enter the name of the movie they were looking for. When the user submits their query, the application makes an API call to a movie database to fetch the relevant data, such as the title, poster image, release date, and genre. I used conditional rendering to display the search results on the screen.
+
+To make the application more user-friendly, I added a loading spinner to indicate when the application was fetching data from the API.
+
+Finally, I used Netlify to deploy my movie search application online so that users could access it from anywhere. 
+
+As a developer, I enjoyed creating a movie search application that makes it easy for users to find their favorite movies and discover new ones. I look forward to enhancing the application with additional features and making it even more useful for movie lovers everywhere.
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
